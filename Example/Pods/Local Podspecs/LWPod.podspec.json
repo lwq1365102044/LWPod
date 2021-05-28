@@ -1,0 +1,22 @@
+{
+  "name": "LWPod",
+  "version": "0.1.0",
+  "summary": "A short description of LWPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liu1365102044@163.com/LWPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liu1365102044@163.com": "liu1365102044@163.com"
+  },
+  "source": {
+    "git": "https://github.com/liu1365102044@163.com/LWPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LWPod/Classes/**/*"
+}

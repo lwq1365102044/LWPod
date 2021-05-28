@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LWPod_Example' do
+  pod 'LWPod', :path => '../'
+
+  target 'LWPod_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end

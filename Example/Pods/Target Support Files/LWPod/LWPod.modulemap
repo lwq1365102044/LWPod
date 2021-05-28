@@ -1,0 +1,6 @@
+framework module LWPod {
+  umbrella header "LWPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
